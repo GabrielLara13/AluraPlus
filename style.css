@@ -4,9 +4,9 @@
 }
 
 :root {
-    --branco-principal: #ffffff;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
+    --branco-principal: #f0e2e2;
+    --cinza-secundario: #020202;
+    --botao-azul: #295bc0;
     --cor-de-fundo: #00030C;
 }
 body {
@@ -14,4 +14,38 @@ body {
     color: var(--branco-principal);
   
 
+}.principal {
+    background-image: url("Background.png");
+}.container {
+    height: 100vh;
+}.principal {
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}.containerbotao {
+
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+
+} .container {
+    height: 100vh;
+    display: grid;
+} .container {
+
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
 }
+
+
+
+
+
+
+
